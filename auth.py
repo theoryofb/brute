@@ -3,7 +3,7 @@
 from werkzeug.security import generate_password_hash, check_password_hash
 
 # Contraseña real simulada
-_REAL_PASSWORD = "MiContrasenaSegura123!"
+_REAL_PASSWORD = "ab1"
 PASSWORD_HASH = generate_password_hash(_REAL_PASSWORD)
 
 def check_password_vulnerable(guess: str):
